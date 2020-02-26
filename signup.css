@@ -123,10 +123,11 @@ form {
   border-radius: 2px;
   border: 1px solid #c7c7c7;
 }
-form header,
-form main {
+
+form header, form main {
   padding: 30px;
 }
+
 form header {
   padding-bottom: 72px;
   text-align: center;
@@ -185,11 +186,14 @@ form main button {
   font-size: 1.125em;
   margin: 30px 0 40px;
 }
+
 footer p {
   width: 700px;
+  display: inline-block;
+  font-size: 12px;
 }
 
-footer li, footer p {
+footer li  {
   display: inline-block;
   font-size: 12px;
 }
