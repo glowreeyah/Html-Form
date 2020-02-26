@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  color: #4c4c4c;
+  background-color: #eceef1;
+}
+
+i {
+  display: inline-block;
+}
+
+a {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+button {
+  color: white;
+  background-color: #0077c5;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.lock-icon {
+  width: 0.8em;
+  height: 1em;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 100%;
+  height: 56px;
+  font-size: 12px;
+  padding: 10px 30px;
+}
+
+.sign-in {
+  width: 200px;
+  text-align: center;
+  float: right;
+  margin-top: 5px;
+}
+
+header button {
+  float: right;
+  height: 34px;
+  font-size: 1.125em;
+  padding: 0 20px;
+}
+
+.intuit-logos {
+  text-align: center;
+}
+
+.intuit-logo {
+  width: 118px;
+  height: 35px;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+}
+
+.logos {
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  margin-right: 4px;
+  position: relative;
+}
+
+.mint-logo {
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-favicon-4accf8f4.svg)
+    no-repeat;
+  height: 30px;
+  width: 30px;
+}
+
+.mint-text {
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-text-0fa36974.svg)
+    no-repeat;
+  width: 30px;
+  height: 20px;
+}
+
+.quickbooks-logo {
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii01OTguNSA5NzEuNSA1MCA1MCI+PGNpcmNsZSBjeD0iLTU3My41IiBjeT0iOTk2LjUiIHI9IjI1IiBmaWxsPSIjMmNhMDFjIi8+PHBhdGggZD0iTS01OTEuNSA5OTYuNWMwIDUuNCA0LjQgOS44IDkuOCA5LjhoMS40di0zLjZoLTEuNGMtMy40IDAtNi4yLTIuOC02LjItNi4yczIuOC02LjIgNi4yLTYuMmgzLjR2MTguOGMwIDIgMS42IDMuNiAzLjYgMy42di0yNi4yaC03Yy01LjYuMi05LjggNC42LTkuOCAxMHptMjYuNC05LjhoLTEuNHYzLjZoMS40YzMuNCAwIDYuMiAyLjggNi4yIDYuMnMtMi44IDYuMi02LjIgNi4yaC0zLjR2LTE4LjhjMC0yLTEuNi0zLjYtMy42LTMuNnYyNi4yaDdjNS40IDAgOS44LTQuNCA5LjgtOS44LS4yLTUuNi00LjQtMTAtOS44LTEweiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==)
+    no-repeat;
+  height: 30px;
+  width: 30px;
+}
+
+.quickbooks-text {
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/quick-books-text-db6c72bf.svg)
+    no-repeat;
+  width: 98px;
+  height: 22px;
+}
+
+.turbotax-logo {
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/tt-favicon@2x-fbd64ab8.svg)
+    no-repeat;
+  height: 30px;
+  width: 30px;
+}
+
+.turbotax-text {
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/turbo-tax-text-9bc025c5.svg)
+    no-repeat;
+  width: 74px;
+  height: 22px;
+}
