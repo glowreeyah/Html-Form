@@ -124,13 +124,14 @@ form {
   border: 1px solid #c7c7c7;
 }
 
-form header, form main {
+form main {
   padding: 30px;
 }
 
 form header {
   padding-bottom: 72px;
   text-align: center;
+  padding: 30px;
 }
 
 form header #title {
@@ -193,7 +194,7 @@ footer p {
   font-size: 12px;
 }
 
-footer li  {
+footer li {
   display: inline-block;
   font-size: 12px;
 }
