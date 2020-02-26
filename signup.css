@@ -129,24 +129,27 @@ form main {
 }
 form header {
   padding-bottom: 72px;
-}
-form header {
   text-align: center;
 }
+
 form header #title {
   font-size: 24px;
 }
+
 form header #subtitle {
   font-size: 14px;
 }
+
 form header a {
   font-size: 12px;
 }
+
 label {
   color: #404040;
   font-size: 14px;
   line-height: 25px;
 }
+
 input {
   width: 100%;
   height: 34px;
@@ -155,9 +158,11 @@ input {
   border-radius: 3px;
   margin-bottom: 40px;
 }
+
 #phone {
   margin-bottom: 0;
 }
+
 #text-tel {
   color: #444;
   font-size: 10px;
@@ -165,12 +170,14 @@ input {
   text-align: left;
   margin-bottom: 20px;
 }
+
 #password {
   margin-bottom: 5px;
-  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/lock-left-grey@3x-a1ab5bd1.png)
-    no-repeat 0 50%/21px 21px;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/lock-left-grey@3x-a1ab5bd1.png);
+  background-repeat: no-repeat 0 50%/21px 21px;
   background-position-x: 95%;
 }
+
 form main button {
   border: #0077c5;
   width: 100%;
@@ -178,12 +185,27 @@ form main button {
   font-size: 1.125em;
   margin: 30px 0 40px;
 }
+footer p {
+  width: 700px;
+}
+
+footer li, footer p {
+  display: inline-block;
+  font-size: 12px;
+}
+
 form main p {
   text-align: center;
   font-size: 14px;
   font-style: italic;
   color: #757575;
 }
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
 form footer {
   color: #8d9096;
   background-color: #eceef1;
@@ -192,19 +214,9 @@ form footer {
   font-size: 10px;
   text-align: center;
 }
+
 form footer p {
   width: auto;
-}
-
-footer {
-  margin-top: 30px;
-  text-align: center;
-}
-
-footer li,
-footer p {
-  display: inline-block;
-  font-size: 12px;
 }
 
 footer li a {
@@ -213,8 +225,4 @@ footer li a {
 
 footer li a:hover {
   text-decoration: underline;
-}
-
-footer p {
-  width: 700px;
 }
